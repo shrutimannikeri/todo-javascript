@@ -99,7 +99,7 @@ let deleteTodo=async(id)=>{
 
 let displayEdit=async(id)=>{
     try{
-        let todovalue=document.querySelector("#tododesc-"+id).innerText
+        let todovalue=document.querySelector("#tododesc-"+id).innerHTML
         let todolistval=document.querySelector("#todo-"+id)
         todolistval.innerHTML=""
     let divRow=document.createElement("div")
