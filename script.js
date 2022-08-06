@@ -106,7 +106,7 @@ let displayEdit=async(id)=>{
     divRow.innerHTML=""
     divRow.setAttribute("class","editTodo")
 let divinnerhtml=""
-divinnerhtml+=`<div class="row p-2"><div class="col-lg-12 form-inline editform"> <input type="text" value=${todovalue} class="form-control edditTodo" id="edditTodo-${id}" placeholder="enter todo">
+divinnerhtml+=`<div class="row p-2"><div class="col-lg-12 form-inline editform"> <input type="text" value="${todovalue}" class="form-control edditTodo" id="edditTodo-${id}" placeholder="enter todo">
 <button class="btnEdit" onclick="editTodo(${id})">Update</button></div></div>
 
 `
